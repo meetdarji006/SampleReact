@@ -22,5 +22,5 @@ jobs:
       - name: Deploy to EC2 Nginx Directory
         run: |
           sudo rm -rf /var/www/vhosts/frontend/*
-          sudo cp -R build/* /var/www/vhosts/frontend/
+          sudo cp -R dist/* /var/www/vhosts/frontend/
           sudo systemctl restart nginx
