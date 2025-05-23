@@ -12,3 +12,5 @@ const App = () => {
         <div>This is content of website</div>
     </>
 }
+
+export default App
